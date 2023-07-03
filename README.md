@@ -1,1 +1,1 @@
-# distributed_training_with_pytorch
+# Multi-node Distributed Training on Kubernetes with Run:ai using Pytorch
