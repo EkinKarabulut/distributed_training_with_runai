@@ -61,6 +61,6 @@ runai submit-tf --name distributed-training-tf --workers=2 -g 1 \
         -i docker.io/YOUR-USER-NAME/distributed_training_tensorflow --no-master
 ```
 
-This will launch 2 workers with 1 GPU on each. Be aware that the required envrionment variable `TF_CONFIG` is automatically populated when the pods are created, which means that you do not need to populate it yourself and just export it in the bash script and use it in your training scripts.
+This will launch 2 workers with 1 GPU on each. Be aware that the required envrionment variable `TF_CONFIG` is automatically populated when the pods are created, which means that you do not need to populate it yourself. You can export it in the bash script and use it in your training scripts.
 
 For more information about `runai submit-tf` command, please refer to the [documentation](https://docs.run.ai/v2.10/Researcher/cli-reference/runai-submit-tf/)
