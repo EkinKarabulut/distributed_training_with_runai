@@ -47,7 +47,7 @@ For more information about `runai submit-pytorch` command, please refer to the [
 
 ## Data parallelism with Tensorflow (using `MultiWorkerMirroredStrategy`)
 
-You can find the related documents in [pytorch](https://github.com/EkinKarabulut/distributed_training_with-Run-ai/tree/main/tensorflow) folder and the created Docker image [here](https://hub.docker.com/repository/docker/ekink/distributed_training_tensorflow/general). If you want to create your own image, you can edit your code, create your image and push the image to your image registry with the following commands; 
+You can find the related documents in [tensorflow](https://github.com/EkinKarabulut/distributed_training_with-Run-ai/tree/main/tensorflow) folder and the created Docker image [here](https://hub.docker.com/repository/docker/ekink/distributed_training_tensorflow/general). If you want to create your own image, you can edit your code, create your image and push the image to your image registry with the following commands; 
 
 ```
 docker build -t YOUR-USER-NAME/distributed_training_tensorflow .
